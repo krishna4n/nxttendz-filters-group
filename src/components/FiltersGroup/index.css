@@ -1,0 +1,77 @@
+.filters-group-container {
+  margin-top: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 60px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Write your CSS here */
+
+.search-input {
+  height: 30px;
+  background-color: #f1f5f9;
+  border: none;
+  outline: none;
+}
+.search-icon {
+  padding-top: 5px;
+  padding: 1px;
+}
+.search-container {
+  width: 200px;
+  background-color: #f1f5f9;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.products-category-container {
+  margin-left: -30px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.products-ratings-container {
+  margin-left: -30px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.filled-star-icon {
+  color: #0967d2;
+}
+.blank-star-icon {
+}
+.category-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: -5px;
+}
+.ratings-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: -5px;
+}
+.clear-filters-button {
+  background-color: transparent;
+  border-color: #0967d2;
+  color: #0967d2;
+  border-radius: 5px;
+}
+.ratings-icon {
+  height: 10px;
+  width: 80px;
+}
+
+.activated-category {
+  color: #0967d2;
+}
